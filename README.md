@@ -6,7 +6,7 @@ and
 [Rui Bogas](https://www.behance.net/ruibogas) <br />
 Check out their other projects in the links above
 
-### Some gif presenting page
+### Some gifs presenting page
 #### Whole page slide
 ![whole page slide](https://github.com/Gregoofolio/NewProvidence-page/blob/master/NewProvidence_page.gif)
 #### Mobile menu
