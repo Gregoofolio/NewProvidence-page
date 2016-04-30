@@ -1,0 +1,78 @@
+.download, .subscribe{
+	padding-top: 200px;
+	h2{
+		text-align: center;
+	}
+	.input-holder{
+		display: block;
+		width: 500px;
+		margin: 0 auto 45px;
+		text-align: center;
+		position: relative;
+		@media screen and (max-width:768px){
+			width: 300px;
+		}
+		input[type="text"]{
+			font-family: $lato;
+			font-size: 1em;
+			line-height: 40px;
+			border:1px solid $grey;
+			border-radius:20px;
+			width: 400px;
+			padding: 0 155px 0 20px;
+			@media screen and (max-width:768px){
+				width: 300px;
+				
+			}
+		}
+		input[type="submit"]{
+			position: absolute;
+			width: 140px;
+			height: 38px;
+			font-family: $lato;
+			font-size: 1em;
+			line-height: 36px;
+			border:1px solid $green;
+			border-radius:20px;
+			background-color: $green;
+			color: #fff;
+			right:52px;
+			top:2px;
+			@media screen and (max-width:768px){
+				width: 120px;
+				right: 2px;
+			}
+
+		}
+	}
+}
+.download{
+	.download-link{
+		display: block;
+		margin: 20px auto 0;
+		width: 170px;
+		transition: box-shadow 0.3s ease;
+		&:hover{
+			-webkit-box-shadow: 0px 12px 36px 0px rgba(0,0,0,0.17);
+			-moz-box-shadow: 0px 12px 36px 0px rgba(0,0,0,0.17);
+			box-shadow: 0px 12px 36px 0px rgba(0,0,0,0.17);
+		}
+		.download-img{
+			width: 170px;
+		}
+	}
+}
+.subscribe {
+	padding-bottom: 160px;
+	.input-holder{
+		margin-bottom: 1em;
+	}
+	.subscribe-promise{
+		display: block;
+		text-align: center;
+		font-family: $lato;
+		font-size: 0.8em;
+		font-weight: 600;
+		color: $grey;
+	}
+}

@@ -1,0 +1,78 @@
+.testimonials{
+	padding-top: 160px;
+	.owl-testimonials{
+		max-width:992px;
+		margin: 0 auto;
+		.owl-item{
+			opacity:0.4;
+		  	transform:scale(0.95);
+			transition:all .4s ease;
+			&.active{
+				opacity:1;
+		  		transform:scale(1);
+			}
+			.slide{
+				
+				&.slide-1{
+					background-color: #fff;
+				}
+				&.slide-2{
+					background-color: #fff;
+				}
+				&.slide-3{
+					background-color: #fff;
+				}
+			}
+			.user-face{
+				width: 120px;
+				height: 120px;
+				border-radius:50%;
+				margin: 0 auto;
+				-webkit-box-shadow: 10px 10px 40px 0px rgba(92,95,101,0.28);
+				-moz-box-shadow: 10px 10px 40px 0px rgba(92,95,101,0.28);
+				box-shadow: 10px 10px 40px 0px rgba(92,95,101,0.28);
+			}
+			.opinion-title{
+				display: block;
+				font-family: $lato;
+				font-weight: 200;
+				font-size: 1.8em;
+				color:$black;
+				text-align: center;
+				margin: 30px auto;
+			}
+			.opinion{
+				font-family: $lato;
+				font-size: 1.2em;
+				line-height: 1.5em;
+				color: $grey;
+				text-align: center;
+			}
+			.stars-holder{
+				width: 100%;
+				text-align: center;
+			}
+			.fa-star{
+				font-size: 1.5em;
+				color: #f2bc3b;
+				text-align: center;
+
+				&.greyed{
+					color: lighten($black, 40%)
+				}
+			}
+			.opinion-author{
+				display: block;
+				font-family: $lato;
+				text-transform: uppercase;
+				font-size: 0.8em;
+				letter-spacing:2px;
+				color:$black;
+				font-weight: 600;
+				text-align: center;
+				margin: 30px auto;
+			}
+			
+		}
+	}
+}

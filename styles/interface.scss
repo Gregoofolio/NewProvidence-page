@@ -1,0 +1,35 @@
+.interface{
+	h2{
+		text-align: center;
+		padding-top: 120px;
+	}
+	.interface-separator{
+		display: block;
+		width: 50px;
+		height: 2px;
+		background-color: $blue;
+		margin: 0 auto 30px	;
+	}
+	.carousel-holder{
+		position: relative;
+		margin-top: 100px;
+		.iphone-frame{
+			position: absolute;
+			z-index: 10;
+			width: 290px;
+			left: 50%;
+			transform: translateX(-50%);
+			top:-65px;
+			pointer-events:none;
+		}
+	}
+	.owl-iphone{
+		img{
+			width: 260px;
+			display: block;
+			margin: 0 auto;
+			border: 1px solid lighten($grey, 30%);
+			border-radius:5px;
+		}
+	}
+}
